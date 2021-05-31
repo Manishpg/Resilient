@@ -1,0 +1,37 @@
+.mission{
+    color:rgb(164 228 204);
+    display:inline;
+    font-size:48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.mission-desc{
+    color:black;
+    /* display:inline; */
+    font-size:32px;
+    font-weight:700;
+    line-height:initial; 
+}
+
+.about-desc{
+    text-align: center;
+   margin-left: -400px;
+    font-size:18px;
+    color:black;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.about-desc2{
+     font-size:18px;
+     color:black;
+     font-weight: 400;
+     line-height: 27px;
+}
+
+@media screen and (max-width: 960px) {
+    .about-desc{
+        margin-left: 0;
+    }
+}

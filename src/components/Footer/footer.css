@@ -1,0 +1,10 @@
+.address{
+    font-weight:600;
+    margin-top:90px;
+}
+
+@media screen and (max-width: 960px){
+    .address{
+        margin-top: 0px;
+    }
+}

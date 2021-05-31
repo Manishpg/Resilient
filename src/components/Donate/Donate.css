@@ -1,0 +1,34 @@
+.donate{
+    color:#a4e4cc;
+    font-size:32px;
+    font-weight: 700;
+}
+label{
+    color:rgb(169,169,169);
+}
+/* input[type=text], input[type=email], textarea {
+    background-color: #F5F5F5;
+    color: black;
+  } */
+#inputID::placeholder{
+    color:black;
+}
+#inputID{
+    background-color: #F5F5F5;
+    color:black
+}
+.submit-btn{
+    padding:10px 20px;
+  text-transform: uppercase;
+    color:rgb(254 193 50);
+    font-size:20px;
+    background-color:#fff;
+    border:none;
+}
+.submit-btn:hover{
+    background-color: rgb(254 193 50);
+    border:1px solid rgb(254 193 50);
+    color:#fff;
+    border-radius:30px;
+    transition: .3s all ease-in-out;
+}

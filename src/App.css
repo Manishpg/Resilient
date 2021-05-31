@@ -1,0 +1,12 @@
+*{
+  box-sizing:content-box;
+  font-family: 'Open Sans', sans-serif;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+  width: 0px;
+   }
