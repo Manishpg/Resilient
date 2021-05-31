@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
@@ -13,7 +13,7 @@ function NavBar() {
       <nav className="navbar fixed-top">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-          <img src="https://assets.zyrosite.com/A1ayJ1rpDvCXbKg9/header-AE0V424qk0haPWog.png" width="60px"/>
+          <img alt="" src="https://assets.zyrosite.com/A1ayJ1rpDvCXbKg9/header-AE0V424qk0haPWog.png" width="60px"/>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

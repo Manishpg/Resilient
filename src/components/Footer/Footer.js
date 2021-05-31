@@ -20,7 +20,7 @@ function Footer() {
                    </div>
                    <div className="col-lg-6">
                    <div style={{width: "100%"}}>
-                   <iframe allowfullscreen="" loading="lazy" style={{border:"0"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.826064121621!2d77.59303900476475!3d12.982974287667773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1750a342aceb%3A0xd4ff935b9554b3b0!2sWorkafella%20Infantry%20Road%20-%20Office%20Space%20Rent%20in%20Bangalore%20%26%20Coworking!5e0!3m2!1sen!2sin!4v1622484285655!5m2!1sen!2sin" width="100%" height="400" ></iframe>
+                   <iframe title="Google Map" allowfullscreen="true" loading="lazy" style={{border:"0"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.826064121621!2d77.59303900476475!3d12.982974287667773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1750a342aceb%3A0xd4ff935b9554b3b0!2sWorkafella%20Infantry%20Road%20-%20Office%20Space%20Rent%20in%20Bangalore%20%26%20Coworking!5e0!3m2!1sen!2sin!4v1622484285655!5m2!1sen!2sin" width="100%" height="400" ></iframe>
                                  </div>
                    </div>
             </div>
