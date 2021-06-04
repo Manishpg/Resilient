@@ -11,7 +11,7 @@ function NavBar() {
     <>
       <nav className="navbar fixed-top">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo sm-text-center">
+          <NavLink exact to="/" className="nav-logo ">
           <img alt="" src="https://assets.zyrosite.com/A1ayJ1rpDvCXbKg9/header-AE0V424qk0haPWog.png" width="60px"/>
           </NavLink>
 
