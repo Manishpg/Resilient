@@ -4,7 +4,8 @@ import './About.css'
 
 function About() {
     return (
-        <div className="container" style={{marginTop:"80px"}}>
+      <div className="about">
+        <div className="container  " style={{marginTop:"80px",backgroundColor:"transparent"}}>
         <div className="row">
             <div className="col-lg-6 col-sm-12 mission text-end">
               <p className="mission">Mission</p><br/>
@@ -23,6 +24,7 @@ function About() {
             <div className="col-lg-6 col-sm-12 mission text-end">
               <p className="about-desc2" style={{marginTop:"20px"}}> RISE was co-founded by Ananth Sudarshan and Shweta Subbiah, two passionate individuals who have dedicated most of their careers and individual lives to uplifting and empowering disadvantaged sections of the society. While the platform is committed to tackling the problem at a larger scale, the objective is to encourage more people to participate in directly being a changemaker, or support someone in creating social impact.</p>
             </div>   
+        </div>
         </div>
         </div>
     )

@@ -6,6 +6,12 @@
     line-height: 60px;
 }
 
+.about{
+    background-image:url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/A1ayJ1rpDvCXbKg9/RISE-Template-YrDPN631qwT8ox2L.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .mission-desc{
     color:black;
     /* display:inline; */

@@ -31,7 +31,7 @@ const handleSubmit= (e) => {
     <input id="inputID" type="text" placeholder="Your Last Name" class="form-control" required  onChange={(e)=>{setLname(e.target.value)}}/>
   </div>
   <div class="col-12">
-    <label  class="form-label">Your Email</label>
+    <label  class="form-label">Your Email*</label>
     <input id="inputID" type="email" class="form-control"  placeholder="Your Email Address"  onChange={(e)=>{setEmail(e.target.value)}} required />
   </div>
   <div class="col-12">

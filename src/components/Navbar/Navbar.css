@@ -27,7 +27,6 @@
   margin-left: 75px;
   cursor: pointer;
   text-decoration: none;
-  
   flex-grow: 1;
 }
 
@@ -117,9 +116,10 @@
     color:#ceeece;
   }
 .nav-logo{
-  display:flex;
+  /* display:flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  text-align: center;
   
 }
   .nav-icon {
