@@ -1,9 +1,12 @@
 import React ,{useState} from 'react'
 import '../../bootstrap.min.css'
 import './Donate.css'
+import {useHistory} from 'react-router-dom';
 
 function Donate() {
     
+const history = useHistory();
+
 const [fName,setFname] = useState("");
 const [lName,setLname] = useState("");
 const [email,setEmail] = useState("");
@@ -52,7 +55,7 @@ const handleSubmit= (e) => {
     <textarea id="inputID"  class="form-control" placeholder="Your Postal Address" onChange={(e)=>{setAddress(e.target.value)}}/>
   </div>
   <div class="col-12 text-center">
-    <button type="submit" class="submit-btn">Submit</button>
+    <button type="submit" class="submit-btn" onClick={() => history.push("/confirm")}>Submit</button>
   </div>
   
 </form>
