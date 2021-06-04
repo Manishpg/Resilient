@@ -10,3 +10,5 @@ html {
   ::-webkit-scrollbar {
   width: 0px;
    }
+   ::-moz-selection { background: #a4e4cc; }
+::selection { background: #a4e4cc; }
