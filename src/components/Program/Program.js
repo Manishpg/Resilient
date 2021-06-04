@@ -1,5 +1,6 @@
 import React from 'react'
 import './Program.css';
+import '../../bootstrap.min.css'
 
 
 function Program() {
